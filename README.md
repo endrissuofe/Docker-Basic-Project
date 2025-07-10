@@ -87,7 +87,7 @@ docker run hello-world
 docker run nginx
 ```
 
-> ![Run nginx](img/docker-run-nginx.png)
+![Run nginx](img/docker-run-nginx.png)
 
 ### 2. View Running Containers
 
@@ -95,7 +95,7 @@ docker run nginx
 docker ps
 ```
 
-> ![docker ps](img/docker-ps.png)
+![docker ps](img/docker-ps.png)
 
 ### 3. View All Containers (including stopped)
 
@@ -103,7 +103,7 @@ docker ps
 docker ps -a
 ```
 
-> ![docker ps -a](img/docker-ps-a.png)
+![docker ps -a](img/docker-ps-a.png)
 
 ### 4. Stop a Container
 
@@ -113,7 +113,7 @@ docker stop <container_id>
 
 > Replace `<container_id>` with the actual ID from `docker ps`.
 
-> ![docker stop](img/docker-stop.png)
+![docker stop](img/docker-stop.png)
 
 ### 5. Pull an Image
 
@@ -121,7 +121,7 @@ docker stop <container_id>
 docker pull nginx
 ```
 
-> ![docker pull](img/docker-pull.png)
+![docker pull](img/docker-pull.png)
 
 ### 6. Push an Image
 
@@ -131,7 +131,7 @@ docker push <your-username>/<image-name>
 
 > Replace `<your-username>` and `<image-name>` with your Docker Hub username and image name.
 
-> ![docker push](img/docker-push.png)
+![docker push](img/docker-push.png)
 
 ### 7. List Images
 
@@ -139,7 +139,7 @@ docker push <your-username>/<image-name>
 docker images
 ```
 
-> ![docker images](img/docker-images.png)
+![docker images](img/docker-images.png)
 
 ### 8. Remove an Image
 
